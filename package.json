@@ -1,0 +1,29 @@
+{
+  "name": "gmap-leads-scraper-ui",
+  "version": "1.0.0",
+  "description": "Standalone Web GUI for Google Maps lead scraper with Playwright, Cheerio, and Express",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "google-maps",
+    "scraper",
+    "lead-generation",
+    "playwright",
+    "cheerio"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.8.2",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "exceljs": "^4.4.0",
+    "express": "^4.21.2",
+    "playwright": "^1.51.0",
+    "xlsx": "^0.18.5"
+  }
+}
